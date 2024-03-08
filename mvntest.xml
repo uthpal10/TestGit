@@ -8,8 +8,8 @@
   </run>
   </groups>
     <classes>
-      <class name="maven.Sample"/>
-      <class name="maven.Sample1"/>
+      <class name="sample.Sample"/>
+      <class name="sample.Sample1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

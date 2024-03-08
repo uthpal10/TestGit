@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T10:42:56 IST" name="Default suite" finished-at="2024-03-08T10:42:56 IST" duration-ms="121">
+    <groups>
+      <group name="Regression">
+        <method signature="Sample.test2()[pri:0, instance:sample.Sample@783a467b]" name="test2" class="sample.Sample"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Sample.test1()[pri:0, instance:sample.Sample@783a467b]" name="test1" class="sample.Sample"/>
+        <method signature="Sample.test3()[pri:0, instance:sample.Sample@783a467b]" name="test3" class="sample.Sample"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-08T10:42:56 IST" name="Default test" finished-at="2024-03-08T10:42:56 IST" duration-ms="121">
+      <class name="sample.Sample">
+        <test-method signature="test1()[pri:0, instance:sample.Sample@783a467b]" started-at="2024-03-08T10:42:56 IST" name="test1" finished-at="2024-03-08T10:42:56 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:sample.Sample@783a467b]" started-at="2024-03-08T10:42:56 IST" name="test2" finished-at="2024-03-08T10:42:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:sample.Sample@783a467b]" started-at="2024-03-08T10:42:56 IST" name="test3" finished-at="2024-03-08T10:42:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- sample.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
